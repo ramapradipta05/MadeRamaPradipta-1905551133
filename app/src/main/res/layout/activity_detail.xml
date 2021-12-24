@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg_red"
+android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Detail Inspection Note"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/gray_bg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Name:"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="TextView" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/gray_bg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:text="Description:"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="TextView" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/gray_bg" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Rating:"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/seekRate"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="TextView" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/gray_bg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="How The Taste:"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/radioResult"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="TextView" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/gray_bg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="How The Price:"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/checkResult"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="TextView" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/gray_bg" />
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="TextView" />
+</LinearLayout>
